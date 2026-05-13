@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "date": "2026-05-13",
+    "acr_cited_rate": 0.08,
+    "acr_brand_rate": 0.14,
+    "total_queries": 50,
+    "model": "sonar"
+  }
+]
