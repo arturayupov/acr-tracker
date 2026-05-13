@@ -1,0 +1,32 @@
+name: Daily ACR Monitor
+
+on:
+  schedule:
+    - cron: '0 7 * * *'  # daily 07:00 UTC (after fresh catalog sync)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  measure:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - name: Run ACR monitor
+        env: { PPLX_API_KEY: '${{ secrets.PPLX_API_KEY }}' }
+        run: python scripts/monitor.py
+      - name: Commit
+        run: |
+          git config user.name livostyle-bot
+          git config user.email info@arcada.store
+          git add data/
+          if git diff --cached --quiet; then echo "no changes"; else
+            DATE=$(date -u +%Y-%m-%d)
+            CR=$(python -c "import json; t=json.load(open('data/timeseries.json'))[-1]; print(t['acr_cited_rate'])")
+            git commit -m "📊 ACR snapshot ${DATE} — citation rate ${CR}"
+            git push
+          fi

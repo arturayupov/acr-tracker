@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Livostyle ACR Monitor — Live AI Citation Rate Dashboard</title>
+<meta name="description" content="Public daily measurements of Livostyle/Arcada LLC AI citation rate across Perplexity. Open methodology, open data, MIT licensed.">
+<link rel="canonical" href="https://arturayupov.github.io/acr-tracker/">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<style>
+:root {
+  --bg: #fbfaf6;
+  --ink: #1a1a1a;
+  --muted: #6b7280;
+  --accent: #c9a96e;
+  --card: #fff;
+  --border: #e8e2d4;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Inter', system-ui, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.6; padding: 32px 20px 64px; }
+.wrap { max-width: 920px; margin: 0 auto; }
+header { text-align: center; margin-bottom: 32px; }
+header h1 { font-family: 'Cormorant Garamond', Georgia, serif; font-size: clamp(28px,4.5vw,40px); font-weight: 600; letter-spacing: -0.02em; }
+header p { color: var(--muted); margin-top: 8px; font-size: 15px; }
+
+.metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin-bottom: 28px; }
+.metric { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; }
+.metric .label { color: var(--muted); font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase; }
+.metric .value { font-family: 'Cormorant Garamond', serif; font-size: 36px; font-weight: 500; margin-top: 4px; }
+.metric .sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+
+.chart-wrap { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 22px; margin-bottom: 22px; }
+.chart-wrap h2 { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 500; margin-bottom: 14px; }
+canvas { max-height: 320px; }
+
+.method { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 24px 26px; margin-bottom: 18px; font-size: 14.5px; }
+.method h2 { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 500; margin-bottom: 12px; }
+.method p { margin-bottom: 10px; }
+.method ul { padding-left: 18px; margin-bottom: 10px; }
+.method li { margin-bottom: 4px; }
+.method code { background: #f0ebd9; padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+.method a { color: #a88a52; text-decoration: none; border-bottom: 1px solid rgba(168,138,82,0.3); }
+
+footer { text-align: center; font-size: 13px; color: var(--muted); margin-top: 32px; }
+footer a { color: #a88a52; text-decoration: none; border-bottom: 1px solid rgba(168,138,82,0.3); }
+.no-data { color: var(--muted); text-align: center; padding: 30px; font-style: italic; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Livostyle ACR Monitor</h1>
+  <p>Daily measurement of <strong>AI Citation Rate</strong> across Perplexity. 50 fashion-vertical queries / day, parsed for citations to Livostyle canonical domains.</p>
+</header>
+
+<div class="metrics">
+  <div class="metric"><div class="label">Latest citation rate</div><div class="value" id="m-cited">—</div><div class="sub">queries citing our domains</div></div>
+  <div class="metric"><div class="label">Latest brand mention rate</div><div class="value" id="m-brand">—</div><div class="sub">queries naming Livostyle</div></div>
+  <div class="metric"><div class="label">Days tracked</div><div class="value" id="m-days">—</div><div class="sub">since launch</div></div>
+  <div class="metric"><div class="label">Last update</div><div class="value" id="m-date" style="font-size:18px">—</div><div class="sub">UTC</div></div>
+</div>
+
+<div class="chart-wrap">
+  <h2>ACR over time</h2>
+  <canvas id="chart"></canvas>
+</div>
+
+<section class="method">
+  <h2>Methodology</h2>
+  <p>Every day at 07:00 UTC, a GitHub Action runs <code>scripts/monitor.py</code> which sends 50 standardized queries to the Perplexity API (<code>sonar</code> model), parses the returned citations and answer text, and counts:</p>
+  <ul>
+    <li><strong>acr_cited_rate</strong> — fraction of queries where at least one canonical Livostyle domain appears in citations (URL-level signal)</li>
+    <li><strong>acr_brand_rate</strong> — fraction of queries where "Livostyle" or related brand terms appear in the answer text (semantic-level signal)</li>
+  </ul>
+  <p>The query panel spans 5 categories (direct brand, generic vertical, comparison, occasion/use-case, AI-tool-specific). Full panel: <a href="https://github.com/arturayupov/acr-tracker/blob/main/queries/panel.json">queries/panel.json</a>. Daily raw snapshots: <a href="https://github.com/arturayupov/acr-tracker/tree/main/data/daily">data/daily/</a>.</p>
+  <p>This dashboard is part of a published case study on Generative Engine Optimization for DTC retailers: <a href="https://doi.org/10.5281/zenodo.20155974">DOI 10.5281/zenodo.20155974</a>.</p>
+</section>
+
+<footer>
+  <p>Open data, open code · <a href="https://github.com/arturayupov/acr-tracker">Source on GitHub</a> · MIT licensed</p>
+  <p>By <a href="https://livostyle.com">Livostyle</a> (Arcada LLC) · Wikidata <a href="https://www.wikidata.org/wiki/Q139780450">Q139780450</a></p>
+</footer>
+
+</div>
+<script>
+const TS_URL = 'https://raw.githubusercontent.com/arturayupov/acr-tracker/main/data/timeseries.json';
+fetch(TS_URL).then(r=>r.json()).then(ts => {
+  if (!ts.length) {
+    document.querySelector('.chart-wrap').innerHTML = '<h2>ACR over time</h2><p class="no-data">No data yet — first run pending.</p>';
+    return;
+  }
+  const last = ts[ts.length-1];
+  document.getElementById('m-cited').textContent = (last.acr_cited_rate*100).toFixed(1) + '%';
+  document.getElementById('m-brand').textContent = (last.acr_brand_rate*100).toFixed(1) + '%';
+  document.getElementById('m-days').textContent  = ts.length;
+  document.getElementById('m-date').textContent  = last.date;
+
+  new Chart(document.getElementById('chart'), {
+    type:'line',
+    data:{
+      labels: ts.map(t=>t.date),
+      datasets:[
+        { label:'Citation rate', data: ts.map(t=>t.acr_cited_rate*100), borderColor:'#c9a96e', backgroundColor:'rgba(201,169,110,.12)', fill:true, tension:.25 },
+        { label:'Brand mention rate', data: ts.map(t=>t.acr_brand_rate*100), borderColor:'#6b7280', backgroundColor:'rgba(107,114,128,.06)', fill:true, tension:.25, borderDash:[4,4] },
+      ]
+    },
+    options:{ responsive:true, plugins:{legend:{position:'bottom'}}, scales:{y:{beginAtZero:true, ticks:{callback:v=>v+'%'}}}}
+  });
+}).catch(e => {
+  document.querySelector('.chart-wrap').innerHTML = '<h2>ACR over time</h2><p class="no-data">Data load failed — likely first run pending.</p>';
+});
+</script>
+</body>
+</html>
