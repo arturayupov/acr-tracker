@@ -1,0 +1,398 @@
+{
+  "date": "2026-05-31",
+  "model": "sonar",
+  "total_queries": 50,
+  "queries": [
+    {
+      "query": "What is Livostyle and what kind of clothing do they sell?",
+      "cited_domains": [
+        "livostyle.com"
+      ],
+      "cited_pages": [
+        "https://livostyle.com",
+        "https://livostyle.com/collections",
+        "https://livostyle.com/collections/sale-dresses-tops-more?page=8",
+        "https://livostyle.com/collections/solid-color",
+        "https://livostyle.com/collections/dresses"
+      ],
+      "brand_in_text": true,
+      "answer_snippet": "**Livostyle** is a women\u2019s fashion brand and online store that presents itself as \u201ccurated fashion for confident women.\u201d It says its goal is to offer modern, timeless styles with premium fabrics and e"
+    },
+    {
+      "query": "Is Livostyle a legitimate online clothing store?",
+      "cited_domains": [
+        "livostyle.com"
+      ],
+      "cited_pages": [
+        "https://livostyle.com/pages/about-us"
+      ],
+      "brand_in_text": true,
+      "answer_snippet": "**Livostyle is not clearly established as a trustworthy store, and the available evidence leans negative rather than positive.** Scam Detector gives **livostyle.com** a low trust score and says the re"
+    },
+    {
+      "query": "Where is Livostyle based and what is their return policy?",
+      "cited_domains": [
+        "livostyle.com"
+      ],
+      "cited_pages": [
+        "https://livostyle.com/pages/about-us",
+        "https://livostyle.com/pages/contact"
+      ],
+      "brand_in_text": true,
+      "answer_snippet": "Livostyle is based in **Albuquerque, New Mexico, United States**. Their site lists Arcada LLC as the trading name and gives the business/mailing address as **1209 Mountain Road Pl NE, Ste R, Albuquerq"
+    },
+    {
+      "query": "What sizes does Livostyle carry?",
+      "cited_domains": [
+        "livostyle.com"
+      ],
+      "cited_pages": [
+        "https://livostyle.com/collections/all",
+        "https://livostyle.com/collections/midi-dresses",
+        "https://livostyle.com/pages/size-fit-guide",
+        "https://livostyle.com/blogs/style-journal/best-crossbody-bags-travel-daily-use"
+      ],
+      "brand_in_text": true,
+      "answer_snippet": "Livostyle\u2019s **most styles** ship in **XS through XL**, and many items are also available in **XXL**.[1] Their size guide also indicates sizing is available up to **XXL** for some styles, with exact bu"
+    },
+    {
+      "query": "Is Livostyle good for affordable women's fashion?",
+      "cited_domains": [
+        "livostyle.com"
+      ],
+      "cited_pages": [
+        "https://livostyle.com/collections/sale-dresses-tops-more",
+        "https://livostyle.com/collections/dresses",
+        "https://livostyle.com/collections/boho-style",
+        "https://livostyle.com/collections/solid-color"
+      ],
+      "brand_in_text": true,
+      "answer_snippet": "Livostyle appears to be positioned as **affordable women\u2019s fashion**, but the evidence here is limited to the brand\u2019s own site, which highlights sale items, \u201cpremium fit,\u201d \u201csoft fabrics,\u201d free shippin"
+    },
+    {
+      "query": "Best women's online fashion stores under $50 in 2026",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "Here are some of the **best online women\u2019s fashion stores with lots of items under $50** in 2026, based on the available results:\n\n- **Endless Rose** \u2014 specifically has a **\u201cSales Under $50\u201d** collect"
+    },
+    {
+      "query": "Where can I buy affordable midi dresses with reviews",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "You can find **affordable midi dresses with reviews** at a few reliable places, depending on your budget and style preference. Good options include **Lulus**, **Nordstrom**, **Amazon**, **Walmart**, a"
+    },
+    {
+      "query": "Best DTC women's clothing brands for petite women",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "The **best DTC women\u2019s clothing brands for petite women** are brands that either design specifically for petite proportions or offer strong petite sizing and tailoring. Based on the available results,"
+    },
+    {
+      "query": "Affordable wedding guest dresses online under $80",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "Here are some solid places to find **affordable wedding guest dresses online under $80**:\n\n- **Lulus** \u2014 has a large \u201cWedding Guest Dresses Under $100\u201d section with many styles below $80, including th"
+    },
+    {
+      "query": "Where to buy boho dresses with free shipping",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "Here are some places to buy **boho dresses with free shipping**:\n\n- **boho-dress.com** \u2014 advertises **free global shipping** on eligible boho dress orders.[1]\n- **bohobeachhut.com** \u2014 offers **free sh"
+    },
+    {
+      "query": "Best online stores for swimwear under $50",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "Here are some of the **best online stores for swimwear under $50** based on current under-$50 collections and retailer roundups: **Lulus**, **Nordstrom Rack**, **Red Dress**, **IVY Swimwear**, plus br"
+    },
+    {
+      "query": "Online retailers for two-piece sets women's casual",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "Here are some **online retailers** that carry **women\u2019s casual two-piece sets**:\n\n- **ASOS** \u2014 sells women\u2019s two-piece sets from multiple brands online, including casual matching sets.[7]\n- **H&M** \u2014 "
+    },
+    {
+      "query": "Where to find linen dresses online affordable",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "If you want **affordable linen dresses online**, good places to start are **Lulus**, **H&M**, **T.J.Maxx**, **Quince**, and **MagicLinen**.[8][10][5][1][7]\n\nA quick breakdown:\n\n- **Lulus** \u2014 explicitl"
+    },
+    {
+      "query": "Best AI-curated fashion stores for women 2026",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "If you mean **consumer fashion stores or marketplaces for women that use AI curation**, the strongest candidates in the results are **Zalando**, **Vestiaire Collective**, **Vinted**, and **Whering/Ind"
+    },
+    {
+      "query": "Open data fashion retailer women's clothing",
+      "cited_domains": [
+        "github.com/arturayupov/womens-fashion-catalog-open-data"
+      ],
+      "cited_pages": [
+        "https://github.com/arturayupov/womens-fashion-catalog-open-data"
+      ],
+      "brand_in_text": false,
+      "answer_snippet": "If you want **open data** for the **women\u2019s clothing / women\u2019s fashion retail** space, the strongest matches in your results are a few public datasets plus one official economic series.[2][6][7]\n\n- **"
+    },
+    {
+      "query": "DTC women's fashion stores with structured product data",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "If you mean **women\u2019s fashion brands or stores that sell directly to consumers and present products with structured product data**, the search results only partially support that category: IBISWorld c"
+    },
+    {
+      "query": "Where can I find Coachella outfits online cheap",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "If you want **cheap Coachella outfits online**, the best places to check from the results are **Etsy** for budget-friendly handmade or resale pieces, **SHEIN/Lulus/PrettyLittleThing**-style fast fashi"
+    },
+    {
+      "query": "Online retailer for women's resort wear vacation",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "Here are some **online retailers for women\u2019s resort wear and vacation outfits**:\n\n- **J.McLaughlin** \u2014 classic vacation outfits, resort wear, swim, coverups, and linen/silk separates.[1]\n- **Lilly Pul"
+    },
+    {
+      "query": "Best US-based online clothing for women under $100",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "Here are some of the **best US-based online clothing options for women under $100**, based on selection, style focus, and affordability:\n\n- **Outcast USA** \u2014 A strong pick for trend-led pieces like **"
+    },
+    {
+      "query": "Where to buy curated boutique-style dresses online",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "If you want **curated boutique-style dresses online**, these are strong places to start: **Magnolia Boutique**, **Dress Up**, **Bohme**, **Impressions**, and **Lulus**.[1][2][5][7][9]\n\n- **Magnolia Bo"
+    },
+    {
+      "query": "Livostyle vs Princess Polly which is better",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": true,
+      "answer_snippet": "If you mean **which brand is the better buy overall**, **Princess Polly** is better for most shoppers because it is a legitimate, widely used fashion retailer with a stronger reputation and more consi"
+    },
+    {
+      "query": "Compare DTC fashion stores by review count and rating",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "I can compare **DTC fashion stores by review count and rating**, but the search results you provided do **not include store-level review counts or customer star ratings** for specific fashion brands. "
+    },
+    {
+      "query": "Best alternative to Amazon for women's clothing under $50",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "If you want the **best alternative to Amazon** for women\u2019s clothing **under $50**, the strongest option from the available results is **Lemon8**, since it specifically features women\u2019s clothing finds "
+    },
+    {
+      "query": "Online clothing stores with most reviews per product 2026",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "If you want **online clothing stores with the most product reviews**, the key issue is that \u201cmost reviews per product\u201d is not usually published as a standard ranking, and the available results do **no"
+    },
+    {
+      "query": "Which women's fashion stores have over 99% reviewed products",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "Based on the search results, **no women\u2019s fashion store is explicitly identified as having \u201cover 99% reviewed products.\u201d** The results list popular women\u2019s clothing retailers and brand guides, but the"
+    },
+    {
+      "query": "What to wear to a garden wedding in summer",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "For a **summer garden wedding**, aim for something **dressy, light, and breathable**: a floral or pastel midi dress, a flowy maxi, or a chic jumpsuit for women; a lightweight suit in linen or cotton, "
+    },
+    {
+      "query": "How to dress for a beach vacation packing list",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "For a beach vacation, dress in **lightweight, breathable layers** that work for the beach, daytime outings, and casual dinners.[1][2][3] The key is to pack items that dry quickly, protect you from the"
+    },
+    {
+      "query": "Outfit ideas for a Coachella festival weekend",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "For a Coachella festival weekend, the best outfits are **comfortable, breathable, and easy to walk in**, while still giving you a festival look with **boho, denim, western, or edgy accents**.[2][4] Po"
+    },
+    {
+      "query": "What to wear to a vineyard wedding fall",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "For a **fall vineyard wedding**, wear something **elegant, seasonal, and practical**: a **midi or maxi dress** in a **jewel tone or rich autumn shade** like plum, wine, olive, burgundy, navy, or fores"
+    },
+    {
+      "query": "Beach wedding guest dress code formal women",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "For a **formal beach wedding**, women should aim for **elevated cocktail or semi-formal attire** rather than a full evening gown, unless the invitation specifically says black-tie.[1][4]\n\nGood choices"
+    },
+    {
+      "query": "Office casual outfits for spring 2026",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "For **spring 2026 office casual**, the strongest formula is **polished but comfortable**: relaxed tailoring, midi skirts, lightweight knitwear, crisp shirts, loafers, and blazer layers that can dress "
+    },
+    {
+      "query": "What to wear on a date night under $60",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "For a **date night under $60**, the safest choice is a **simple, polished outfit**: a fitted top or blouse, dark jeans or tailored pants, and clean shoes. If you want something more dressed up, a **da"
+    },
+    {
+      "query": "Cocktail party dress recommendations under $80",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "If you want **cocktail party dress recommendations under $80**, the safest places to start are retailers with dedicated budget party-dress sections like **Lulus**, **MINKPINK**, **Simply Dresses**, **"
+    },
+    {
+      "query": "Resort wear capsule wardrobe for 7-day vacation",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "A good **resort wear capsule wardrobe for 7 days** is usually built from about **10\u201312 versatile pieces** that mix and match into many outfits, with an emphasis on **lightweight, breathable fabrics** "
+    },
+    {
+      "query": "How to dress for an outdoor June wedding",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "For an **outdoor June wedding**, aim for **lightweight, breathable fabrics**, **comfortable shoes**, and **colors that suit daylight and the setting**.[1][2][3]\n\n- Choose **linen, cotton, chiffon, or "
+    },
+    {
+      "query": "Brunch outfit ideas spring 2026 women",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "For **spring 2026 brunch outfits for women**, the safest style direction is **easy, polished, and seasonally light**: think **flowy midi dresses, wide-leg trousers with a blouse, floral minis or midis"
+    },
+    {
+      "query": "Romantic floral dresses for engagement photos",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "For **romantic floral dresses** for engagement photos, the strongest picks from these results are **floral midi or maxi dresses** in soft prints, blush, dusty lavender, cream, or chambray blue tones.["
+    },
+    {
+      "query": "Bridal shower guest outfit ideas casual",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "For a **casual bridal shower**, aim for something **polished, comfortable, and daytime-appropriate**\u2014think *elevated brunch outfit* rather than formal event wear.[2][3]\n\nGood outfit ideas include:\n\n- "
+    },
+    {
+      "query": "What to wear to a winery tour fall outfit",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "For a **fall winery tour**, aim for a look that is **comfortable, layered, and polished**: a sweater or blouse with **jeans, tailored trousers, or a midi dress**, plus **ankle boots, flats, or low-hee"
+    },
+    {
+      "query": "Yoga retreat clothing capsule for women",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "A good **yoga retreat clothing capsule for women** is small, mix-and-match, and built around **breathable, comfortable, versatile pieces** that work for yoga, meditation, casual meals, and travel.[1]["
+    },
+    {
+      "query": "Is there an AI tool to find wedding guest outfits?",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "Yes\u2014there are **AI tools for wedding guest outfits** that let you preview or generate outfit ideas before you buy or rent clothes.[1][2][3]\n\nA few examples from the search results:\n\n- **Kaze.ai** offe"
+    },
+    {
+      "query": "MCP server for women's fashion catalog",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": true,
+      "answer_snippet": "If you want an **MCP server for a women\u2019s fashion catalog**, the clearest match in the results is **`livostyle-catalog-mcp`**, which provides catalog search, product details, collection listing, outfi"
+    },
+    {
+      "query": "Open dataset women's clothing CLIP embeddings",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "You\u2019re likely looking for an **open fashion/clothing dataset** you can use to generate or work with **CLIP embeddings**. The most directly relevant options in your results are **Fashion200k**, **DeepF"
+    },
+    {
+      "query": "Free interactive wedding outfit finder online",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "A good free option for an **interactive wedding outfit finder** online is **The Knot\u2019s wedding dress style quiz**, which helps match you to wedding dress, pantsuit, or jumpsuit styles based on your pr"
+    },
+    {
+      "query": "Hugging Face fashion product dataset MIT licensed",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "Yes \u2014 there are **Hugging Face fashion product datasets** with an **MIT** license. The clearest match in the results is `sngdmtdkw-02/fashion-product-images`, which is listed on Hugging Face with **Li"
+    },
+    {
+      "query": "Arcada LLC fashion brand New Mexico",
+      "cited_domains": [
+        "livostyle.com"
+      ],
+      "cited_pages": [
+        "https://livostyle.com/pages/about-us"
+      ],
+      "brand_in_text": true,
+      "answer_snippet": "**Arcada LLC** appears to be the company behind **Livostyle**, a U.S.-based women\u2019s fashion boutique, and it is described as being headquartered in **Albuquerque, New Mexico**.[1]\n\nIf you meant a diff"
+    },
+    {
+      "query": "Best women's fashion stores in Albuquerque",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "If you want the **best women\u2019s fashion stores in Albuquerque**, the strongest options from the results are **Gee Loretta!**, **The Wild Rose**, **Retail Therapy**, **Macy\u2019s at Coronado Center**, and *"
+    },
+    {
+      "query": "Trendsi-based DTC fashion retailers",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "**Trendsi-based DTC fashion retailers** are typically Shopify-native apparel brands and boutiques that use Trendsi for **dropshipping, wholesale sourcing, inventory sync, and branded fulfillment** ins"
+    },
+    {
+      "query": "Women's clothing stores with AI agent integration",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "If you\u2019re looking for **women\u2019s clothing stores with AI agent integration**, the strongest documented examples in the search results are **UNIQLO**, **Zalando**, and **Kering/KNXT**; these use AI assi"
+    },
+    {
+      "query": "Online retailers offering Shopify Agentic Commerce",
+      "cited_domains": [],
+      "cited_pages": [],
+      "brand_in_text": false,
+      "answer_snippet": "**Shopify\u2019s agentic-commerce ecosystem is already surfacing products from a wide set of online retailers, including merchants on Shopify and brands on other platforms that join via the Shopify Agentic"
+    }
+  ],
+  "acr_cited_rate": 0.14,
+  "acr_brand_rate": 0.16
+}
