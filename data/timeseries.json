@@ -453,5 +453,12 @@
     "acr_brand_rate": 0.18,
     "total_queries": 50,
     "model": "sonar"
+  },
+  {
+    "date": "2026-07-18",
+    "acr_cited_rate": 0.12,
+    "acr_brand_rate": 0.18,
+    "total_queries": 50,
+    "model": "sonar"
   }
 ]
