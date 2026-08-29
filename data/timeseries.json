@@ -747,5 +747,12 @@
     "acr_brand_rate": 0.0,
     "total_queries": 50,
     "model": "sonar"
+  },
+  {
+    "date": "2026-08-29",
+    "acr_cited_rate": 0.0,
+    "acr_brand_rate": 0.0,
+    "total_queries": 50,
+    "model": "sonar"
   }
 ]
