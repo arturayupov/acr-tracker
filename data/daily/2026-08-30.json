@@ -1,0 +1,209 @@
+{
+  "date": "2026-08-30",
+  "model": "sonar",
+  "total_queries": 50,
+  "queries": [
+    {
+      "query": "What is Livostyle and what kind of clothing do they sell?",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Is Livostyle a legitimate online clothing store?",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Where is Livostyle based and what is their return policy?",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "What sizes does Livostyle carry?",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Is Livostyle good for affordable women's fashion?",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Best women's online fashion stores under $50 in 2026",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Where can I buy affordable midi dresses with reviews",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Best DTC women's clothing brands for petite women",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Affordable wedding guest dresses online under $80",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Where to buy boho dresses with free shipping",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Best online stores for swimwear under $50",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Online retailers for two-piece sets women's casual",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Where to find linen dresses online affordable",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Best AI-curated fashion stores for women 2026",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Open data fashion retailer women's clothing",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "DTC women's fashion stores with structured product data",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Where can I find Coachella outfits online cheap",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Online retailer for women's resort wear vacation",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Best US-based online clothing for women under $100",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Where to buy curated boutique-style dresses online",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Livostyle vs Princess Polly which is better",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Compare DTC fashion stores by review count and rating",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Best alternative to Amazon for women's clothing under $50",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Online clothing stores with most reviews per product 2026",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Which women's fashion stores have over 99% reviewed products",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "What to wear to a garden wedding in summer",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "How to dress for a beach vacation packing list",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Outfit ideas for a Coachella festival weekend",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "What to wear to a vineyard wedding fall",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Beach wedding guest dress code formal women",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Office casual outfits for spring 2026",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "What to wear on a date night under $60",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Cocktail party dress recommendations under $80",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Resort wear capsule wardrobe for 7-day vacation",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "How to dress for an outdoor June wedding",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Brunch outfit ideas spring 2026 women",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Romantic floral dresses for engagement photos",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Bridal shower guest outfit ideas casual",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "What to wear to a winery tour fall outfit",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Yoga retreat clothing capsule for women",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Is there an AI tool to find wedding guest outfits?",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "MCP server for women's fashion catalog",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Open dataset women's clothing CLIP embeddings",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Free interactive wedding outfit finder online",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Hugging Face fashion product dataset MIT licensed",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Arcada LLC fashion brand New Mexico",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Best women's fashion stores in Albuquerque",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Trendsi-based DTC fashion retailers",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Women's clothing stores with AI agent integration",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "query": "Online retailers offering Shopify Agentic Commerce",
+      "error": "HTTP Error 401: Unauthorized"
+    }
+  ],
+  "acr_cited_rate": 0.0,
+  "acr_brand_rate": 0.0
+}
